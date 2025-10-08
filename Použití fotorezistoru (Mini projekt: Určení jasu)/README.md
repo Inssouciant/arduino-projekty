@@ -10,7 +10,6 @@ Jednoduchý projekt, po kterém se naučíte pracovat s fotorézistorem, jak v d
 - Propojovací vodiče  
 
 | ![Karta 1](assets/1.jpg) | ![Karta 2](assets/2.jpg) |
-|---------------------------|---------------------------|
 
 ## Digitální varianta
 
