@@ -15,6 +15,15 @@ Jednoduchý projekt, po kterém se naučíte pracovat s fotorézistorem, jak v d
 
 Nejprve sestavíme jednoduchý příklad, abychom pochopili, jak funguje digitální použití tohoto modulu. Sestavte podle tohoto schématu:
 
+
+| Součástka       | Připojení |
+|-----------------|-----------|
+| Fotorézistor GND | GND       |
+| Fotorézistor DO  | Pin 2     |
+| Fotorézistor VCC | 5V        |
+| LED              | Pin 3     |
+
+
 ![Schéma digitálního zapojení](assets/2.png)
 
 Nyní nahrajte kód `Photoresistor-a-LED.ino` na desku a LED dioda se rozsvítí, pokud je úroveň osvětlení nízká. Pokud to nefunguje, zkuste nastavit potenciometr na desce. Pokud svítí 2 červené diody na modulu, znamená to, že osvětlení je dostatečné.
@@ -25,6 +34,15 @@ Video příklad:
 ## Analogová varianta
 
 Teď vytvoříme zajímavější verzi. Budeme měřit analogově úroveň osvětlení a LED diody budou našimi kontrolery osvětlení.
+
+| Součástka        | Připojení |
+|------------------|-----------|
+| Fotorézistor GND | GND       |
+| Fotorézistor AO  | A1        |
+| Fotorézistor VCC | 5V        |
+| LED červená       | Pin 2     |
+| LED žlutá         | Pin 3     |
+| LED zelená        | Pin 4     |
 
 Sestavte podle tohoto schématu:  
 ![Schéma analogového zapojení](assets/3.png)
