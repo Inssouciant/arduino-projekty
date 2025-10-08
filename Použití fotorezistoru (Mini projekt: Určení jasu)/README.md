@@ -2,14 +2,16 @@
 
 Jednoduchý projekt, po kterém se naučíte pracovat s fotorézistorem, jak v digitálním, tak analogovém režimu.
 
-## 🧰 Potřebné součástky
+## Potřebné součástky
 - Arduino UNO (lze použít jakoukoli Arduino desku, já budu používat MEGA)  
 - Fotorézistor  
 - LED diody  
 - Rezistor 330 Ω  
 - Propojovací vodiče  
 
-## 🔌 Digitální varianta
+![Potřebné součástky](assets/1.jpg)
+
+## Digitální varianta
 
 Nejprve sestavíme jednoduchý příklad, abychom pochopili, jak funguje digitální použití tohoto modulu. Sestavte podle tohoto schématu:
 
@@ -20,12 +22,12 @@ Nyní nahrajte kód `Photoresistor-a-LED.ino` na desku a LED dioda se rozsvítí
 Video příklad:  
 ![Video](assets/4.gif)
 
-## 💡 Analogová varianta
+## Analogová varianta
 
 Teď vytvoříme zajímavější verzi. Budeme měřit analogově úroveň osvětlení a LED diody budou našimi kontrolery osvětlení.
 
 Sestavte podle tohoto schématu:  
-![Schéma analogového zapojení](assets/2.jpg)
+![Schéma analogového zapojení](assets/3.jpg)
 
 Nejprve určíme prahové hodnoty osvětlení. Nahrajte program `Photoresistor-analog-test.ino` a otevřete Serial monitor (tlačítko se nachází vpravo nahoře v IDE). Pokud je vše správně, budou se každou sekundu zobrazovat čísla – čím větší jas, tím menší číslo. Určete si podle svého prostředí vhodné hodnoty. Já použil 300, 600, 900.
 
