@@ -1,10 +1,10 @@
-# Projekt – Fotorézistor a LED
+# Projekt – Fotorezistor a LED
 
-Jednoduchý projekt, po kterém se naučíte pracovat s fotorézistorem, jak v digitálním, tak analogovém režimu.
+Jednoduchý projekt, po kterém se naučíte pracovat s fotorezistorem, jak v digitálním, tak analogovém režimu.
 
 ## Potřebné součástky
 - Arduino UNO (lze použít jakoukoli Arduino desku, já budu používat MEGA)  
-- Fotorézistor  
+- Fotorezistor  
 - LED diody  
 - Rezistor 330 Ω  
 - Propojovací vodiče  
@@ -18,9 +18,9 @@ Nejprve sestavíme jednoduchý příklad, abychom pochopili, jak funguje digitá
 
 | Součástka       | Připojení |
 |-----------------|-----------|
-| Fotorézistor GND | GND       |
-| Fotorézistor DO  | Pin 2     |
-| Fotorézistor VCC | 5V        |
+| Fotorezistor GND | GND       |
+| Fotorezistor DO  | Pin 2     |
+| Fotorezistor VCC | 5V        |
 | LED              | Pin 3     |
 
 
@@ -37,9 +37,9 @@ Teď vytvoříme zajímavější verzi. Budeme měřit analogově úroveň osvě
 
 | Součástka        | Připojení |
 |------------------|-----------|
-| Fotorézistor GND | GND       |
-| Fotorézistor AO  | A1        |
-| Fotorézistor VCC | 5V        |
+| Fotorezistor GND | GND       |
+| Fotorezistor AO  | A1        |
+| Fotorezistor VCC | 5V        |
 | LED červená       | Pin 2     |
 | LED žlutá         | Pin 3     |
 | LED zelená        | Pin 4     |
